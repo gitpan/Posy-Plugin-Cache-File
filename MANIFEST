@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Posy-Plugin-Cache-File.t
+lib/Posy/Plugin/Cache/File.pm
+META.yml                                 Module meta-data (added by MakeMaker)

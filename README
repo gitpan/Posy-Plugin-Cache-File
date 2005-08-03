@@ -1,0 +1,43 @@
+
+# Posy::Plugin::Cache::File version 0.1
+
+---
+
+This module provides a fileystem-based cache that can be used by other
+Posy plugins.
+
+## INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+## DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Posy
+  Posy::Core
+  Cache::File
+  Test::More
+
+## ACTIVATION
+
+No activation required.  Posy plugins that use this module will perform
+all necessary initialization.
+
+## CONFIGURATION
+
+No direct configuration required.  Any necessary configuration will be
+exposed by the Posy plugins that use this module.
+
+## COPYRIGHT AND LICENSE
+
+Copyright (C) 2005 by blair christensen.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
